@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="darktheme.css">
+</head>
+<body>
+  <header id="header">
+    <h1 class="header-title">Always Clothed</h1>
+    <nav id="navbar" role="navigation" aria-label="Main Navigation">
+      <a class="nav-link" href="home.html" tabindex="0">Home</a> |
+      <a class="nav-link" href="products.html" tabindex="0">Products</a> |
+      <a class="nav-link" href="about.html" tabindex="0">About Us</a> |
+      <a class="nav-link" href="login.html" tabindex="0">Log in</a> |
+      <a class="nav-link" href="faq.html" tabindex="0">FAQ</a>
+      <a id="theme-toggle" tabindex="0">Switch to Night Mode</a>
+
+    </nav>
+    <hr class="divider">
+  </header>
+
+  <main class="main-content">
+    <div class="form-container" id="auth-section">
+      <!-- Login Section -->
+      <div id="login-section">
+        <h2 id="login2">Login Form</h2>
+        <form id="login-form">
+          <label id="usernameeeeeee" for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <br>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+      <!-- Logout Section -->
+      <div id="logout-section" style="display: none;">
+        <p id="welcome-message"></p>
+        <button id="logout-button">Logout</button>
+      </div>
+    </div>
+  </main>
+
+  <hr class="divider">
+  <footer id="footer">
+    <p class="footer-text">For support, contact info@clothingstore.com</p>
+    <p class="footer-text">Team Members: Sanzhar, Alisher, Bekzhan</p>
+    <p class="footer-text">Date: 2024-09-10</p>
+  </footer>
+
+  <script src="login.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
